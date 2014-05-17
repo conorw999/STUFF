@@ -8,17 +8,19 @@ public class FirstPersonCOntroller : MonoBehaviour {
 	float verticalRotation = 0;
 	public float upDownRange = 60.0f;
 
-	float verticalVelocity = 0;
+	float verticalVelocity = -11;
 
+	CharacterController characterController;
 
 	// Use this for initializationd
 	void Start () {
 		Screen.lockCursor = true;
+		CharacterController characterController = GetComponent<CharacterController> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		CharacterController cc = GetComponent<CharacterController> ();
+		CharacterController characterController = GetComponent<CharacterController> ();
 
 		//Seeing Stuff
 		float rotLeftRight = Input.GetAxis("Mouse X") * mouseSensitivity;
@@ -37,7 +39,7 @@ public class FirstPersonCOntroller : MonoBehaviour {
 
 		verticalVelocity += Physics.gravity.y * Time.deltaTime;
 
-		if( cc.isGrounded && Input.GetButtonDown ("Jump") ) {
+		if( characterController.isGrounded && Input.GetButtonDown ("Jump") ) {
 			verticalVelocity=jumpSpeed;
 		}
 
@@ -47,7 +49,7 @@ public class FirstPersonCOntroller : MonoBehaviour {
 		speed = transform.rotation * speed;
 
 
-		cc.Move( speed * Time.deltaTime);
+		characterController.Move( speed * Time.deltaTime);
 	}
 }
 	
