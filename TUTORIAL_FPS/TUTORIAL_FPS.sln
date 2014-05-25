@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{8A9B29A6-A26F-9F51-D564-02D412900B90}") = "TUTORIAL_FPS", "Assembly-CSharp.csproj", "{8BB0616F-C1BB-9D33-2690-4FFD5BA6EF19}"
 EndProject
-Project("{8A9B29A6-A26F-9F51-D564-02D412900B90}") = "TUTORIAL_FPS", "Assembly-Boo.booproj", "{D753E88A-42E5-D46D-0946-F41DAD9F0CF5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,15 +13,11 @@ Global
 		{8BB0616F-C1BB-9D33-2690-4FFD5BA6EF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB0616F-C1BB-9D33-2690-4FFD5BA6EF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB0616F-C1BB-9D33-2690-4FFD5BA6EF19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D753E88A-42E5-D46D-0946-F41DAD9F0CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D753E88A-42E5-D46D-0946-F41DAD9F0CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D753E88A-42E5-D46D-0946-F41DAD9F0CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D753E88A-42E5-D46D-0946-F41DAD9F0CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																GlobalSection(MonoDevelopProperties) = preSolution
+																																	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -1,18 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\rename.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FirstPersonCOntroller.cs">
     <Files>
-      <File FileName="Assets\Scripts\Gun.cs" Line="298" Column="3" />
-      <File FileName="Assets\Scripts\ObjectPool.cs" Line="282" Column="2" />
-      <File FileName="Assets\Scripts\Gun_BurstFire.cs" Line="46" Column="3" />
-      <File FileName="Assets\Scripts\Gun_Shotgun.cs" Line="51" Column="2" />
-      <File FileName="Assets\Scripts\Gun_SingleShot.cs" Line="34" Column="1" />
-      <File FileName="Assets\Scripts\Projectile.cs" Line="207" Column="2" />
-      <File FileName="Assets\Scripts\BulletHoleManager.cs" Line="155" Column="2" />
-      <File FileName="Assets\Scripts\BulletHole.cs" Line="32" Column="3" />
-      <File FileName="Assets\Scripts\Health.cs" Line="217" Column="2" />
-      <File FileName="Assets\Scripts\rename.boo" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\rename.cs" Line="69" Column="2" />
+      <File FileName="Assets\Scripts\FirstPersonCOntroller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FirstPersonCOntroller.cs" Line="31" Column="69" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
