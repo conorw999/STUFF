@@ -11,7 +11,7 @@ Platform assembly: c:\Users\Conor\programming\git\STUFF\TUTORIAL_FPS\CDF\CodeDay
 Loading c:\Users\Conor\programming\git\STUFF\TUTORIAL_FPS\CDF\CodeDayFinal_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: c:\Users\Conor\programming\git\STUFF\TUTORIAL_FPS\CDF\CodeDayFinal_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading c:\Users\Conor\programming\git\STUFF\TUTORIAL_FPS\CDF\CodeDayFinal_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.175 seconds
+- Completed reload, in  0.338 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
